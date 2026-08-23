@@ -159,7 +159,7 @@ sequence (`0x1000 → 0x1004 → 0x1008 → 0x100c` and
 (`0xaaaa0001`, `0xaaaa0002`, `0xaaaa0003`), `burst_count` counting down from 3
 to 0, and `busy`/`interrupt` toggling around the transfer.
 
-![DMA top-level waveform](waveform_dma_top.jpeg)
+![DMA top-level waveform](assets/waveform_dma_top.jpeg)
 
 **`dma_fsm` waveform (`tb_dma_fsm`)**
 
@@ -168,7 +168,7 @@ Shows the FSM-only view of the same transfer: `current_src_addr` and
 with `bus_read_req` / `bus_write_req`, and `transfer_active` /
 `transfer_done` bracketing the transfer.
 
-![DMA FSM waveform](waveform_dma_fsm.jpeg)
+![DMA FSM waveform](assets/waveform_dma_fsm.jpeg)
 
 ---
 
